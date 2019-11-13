@@ -2,14 +2,12 @@ package com.achan;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
-@EnableEurekaServer
+@EnableDiscoveryClient
 @SpringBootApplication
-public class Application {
-
+public class ApplicationClient {
     public static void main(String[] args) {
-        new SpringApplicationBuilder(Application.class)
-                .web(true).run(args);
+        new SpringApplicationBuilder(ApplicationClient.class).web(true).run(args);
     }
 }

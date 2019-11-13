@@ -1,4 +1,4 @@
-package com.achan;
+package com.achan.controller;
 
 import com.netflix.discovery.converters.Auto;
 import org.springframework.beans.factory.annotation.Autowired;
