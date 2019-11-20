@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: api-gateway
+server:
+  port: 3140
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1001/eureka/
