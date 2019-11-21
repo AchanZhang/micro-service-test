@@ -17,6 +17,7 @@
         <module>turbine-amqp</module>
         <module>api-gateway</module>
         <module>restful-swagger</module>
+        <module>stream-hello</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
