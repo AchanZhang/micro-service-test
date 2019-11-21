@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: restful-swagger
+server:
+  port: 3145
